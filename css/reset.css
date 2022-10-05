@@ -1,9 +1,13 @@
-html, body, div, span, h1, h2, h3, p, a, img, header, footer, nav, section, ul, li {
+html, body, div, span, h1, h2, h3, h4, h5, p, a, img, header, footer, nav, section, ul, li, button {
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
-  box-sizing: inherit;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
+  color: inherit;
+  background: none;
 }
 
 img {
