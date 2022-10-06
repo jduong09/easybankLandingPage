@@ -87,7 +87,7 @@ h2 {
   margin: 1rem 0;
 }
 
-.div-hero > div {
+.div-hero > div > div {
   margin: 1rem 0;
 }
 
@@ -275,7 +275,7 @@ footer .btn-request:hover {
     width: 70%;
     left: 15%;
   }
-  
+
   .div-hero {
     background-position: top -24px left;
   }
@@ -297,6 +297,131 @@ footer .btn-request:hover {
 }
 
 @media (min-width: 922px) {
+  .div-hero {
+    display: flex;
+    padding: 1rem;
+    background-position: top -75px right -150px;
+    background-image: url('../images/bg-intro-desktop.svg');
+    text-align: start;
+  }
+
+  #img-hero {
+    width: 50%;
+    height: auto;
+    margin-top: -2rem;
+    order: 2;
+  }
+
+  .div-hero > div {
+    width: 50%;
+    align-self: center;
+    padding: 3rem;
+  }
+
+  .div-why-easybank {
+    margin-top: -4rem;
+    text-align: start;
+    padding: 3rem;
+  }
+
+  h3 {
+    font-size: 1.85rem;
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .div-why-easybank > div:first-of-type {
+    width: 60%;
+    margin-left: initial;
+    margin-right: initial;
+  }
+
+  .list-features {
+    display: flex;
+  }
+
+  .list-features > li {
+    margin-top: 0;
+  }
+
+  .list-features > li > div {
+    width: 85%;
+    margin-left: initial;
+    margin-right: initial;
+  }
+
+  .div-latest-articles {
+    padding: 4.5rem 3rem;
+  }
+
+  .div-latest-articles > h3 {
+    text-align: start;
+  }
+
+  .list-articles {
+    display: flex;
+  }
+
+  .list-articles > li {
+    margin-top: 0rem;
+    width: 23%;
+  }
+
+  .list-articles > li > img {
+    width: 100%;
+    display: block;
+    height: 150px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 125px;
+    padding: 1.5rem 3rem;
+    text-align: start;
+  }
+
+  #footer-logo {
+    margin: 0 auto auto 0;
+  }
+
+  .list-social-media-links {
+    width: 20%;
+    height: 50%;
+    margin: 0;
+    align-items: flex-end;
+  }
+
+  .list-footer-helpful-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .list-footer-helpful-links > li {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+  .list-footer-helpful-links > li:nth-child(3n) {
+    margin-bottom: 0;
+  }
+
+  .list-footer-helpful-links > li > a, #footer-trademark {
+    font-size: .85rem;
+  }
+
+  footer .btn-request {
+    margin: 0 0 0 auto;
+    padding: .5rem 1.5rem;
+  }
+
+  #footer-trademark {
+    margin: auto 0 0 auto;
+  }
+
 
 }
 
