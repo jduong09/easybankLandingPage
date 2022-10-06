@@ -259,3 +259,51 @@ footer .btn-request:hover {
 .list-item-social-media > a > svg:hover > path {
   fill: hsl(136, 65%, 51%);
 }
+
+@media (min-width: 576px) {
+  .div-hero {
+    background-position: top -4px left;
+  }
+  
+  #img-hero {
+    margin-top: -9rem;
+  }
+}
+
+@media (min-width: 767px) {
+  .list-menu {
+    width: 70%;
+    left: 15%;
+  }
+  
+  .div-hero {
+    background-position: top -24px left;
+  }
+
+  #img-hero {
+    margin-top: -13rem;
+  }
+
+  .div-hero > div, .div-why-easybank > div:first-of-type, .list-features > li > div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .list-articles > li {
+    width: 75%;
+    margin: 1.5rem auto 0 auto;
+  }
+}
+
+@media (min-width: 922px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
