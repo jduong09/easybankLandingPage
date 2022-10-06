@@ -241,3 +241,21 @@ footer .btn-request {
   color: hsl(233, 8%, 62%);
   font-weight: 700;
 }
+
+/* Active States */
+.btn-request:hover {
+  background: linear-gradient(to right, hsla(136, 65%, 51%, .75), hsla(192, 70%, 51%, .75));
+}
+
+.list-articles > li > div > h5:hover, .list-footer-helpful-links > li > a:hover {
+  cursor: pointer;
+  color: hsl(136, 65%, 51%);
+}
+
+footer .btn-request:hover {
+  background: linear-gradient(to right, rgb(63, 254, 114), rgb(50, 211, 252));
+}
+
+.list-item-social-media > a > svg:hover > path {
+  fill: hsl(136, 65%, 51%);
+}
