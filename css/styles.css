@@ -297,25 +297,62 @@ footer .btn-request:hover {
 }
 
 @media (min-width: 922px) {
+  header {
+    padding: 0 3rem;
+  }
+
+  .list-menu {
+    display: flex;
+    width: auto;
+    padding: 0;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .list-item-menu {
+    margin: 0 1rem 0 0;
+    padding: 1.5rem 0;
+    position: relative;
+  }
+
+  .list-item-menu:hover::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(136, 65%, 51%);
+    height: 4px;
+  }
+
+  header > .btn-request {
+    padding: .5rem 1.5rem;
+  }
+
   .div-hero {
     display: flex;
-    padding: 1rem;
-    background-position: top -75px right -150px;
+    justify-content: space-between;
+    padding: 3rem 0 0 3rem;
+    background-position: top -125px right -360px;
     background-image: url('../images/bg-intro-desktop.svg');
+    background-size: cover;
     text-align: start;
+    overflow: hidden;
   }
 
   #img-hero {
-    width: 50%;
+    width: 60%;
     height: auto;
-    margin-top: -2rem;
+    margin-top: -5rem;
+    margin-right: -5rem;
     order: 2;
   }
 
   .div-hero > div {
-    width: 50%;
+    width: 40%;
     align-self: center;
-    padding: 3rem;
+    margin: 0;
   }
 
   .div-why-easybank {
@@ -360,10 +397,11 @@ footer .btn-request:hover {
 
   .list-articles {
     display: flex;
+    justify-content: space-between;
   }
 
   .list-articles > li {
-    margin-top: 0rem;
+    margin: 0rem;
     width: 23%;
   }
 
@@ -421,14 +459,72 @@ footer .btn-request:hover {
   #footer-trademark {
     margin: auto 0 0 auto;
   }
-
-
 }
 
 @media (min-width: 1200px) {
+  header {
+    padding: 0 7rem;
+  }
 
+  #img-hero {
+    width: 55%;
+  }
+
+  .div-hero {
+    padding-left: 7rem;
+    background-position: top -175px right -500px;
+    background-size: cover;
+  }
+
+  .div-hero > div {
+    width: 35%;
+  }
+
+  .div-why-easybank {
+    margin-top: -6rem;
+    padding: 3rem 7rem;
+  }
+
+  .div-latest-articles {
+    padding: 3rem 7rem;
+  }
+
+  .list-articles > li > div {
+    padding: 1rem;
+  }
+
+  .list-articles > li > div > div {
+    font-size: .85rem;
+  }
+
+  footer {
+    padding: 3rem 7rem;
+    height: 180px;
+  }
 }
 
 @media (min-width: 1400px) {
+  header {
+    padding: 0rem 9rem;
+  }
 
+  .div-hero {
+    padding-left: 9rem;
+  }
+
+  .div-why-easybank, .div-latest-articles {
+    padding: 3rem 9rem;
+  }
+
+  .list-social-media-links {
+    width: 13%;
+  }
+
+  .list-footer-helpful-links {
+    margin-left: -6rem;
+  }
+
+  .list-footer-helpful-links > li {
+    margin-bottom: .8rem;
+  }
 }
